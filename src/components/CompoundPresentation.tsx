@@ -146,7 +146,7 @@ const CompoundPresentation = () => {
     <ImageSlide key={19} path="19.webp" />,
 
     <TextSlide key={20}>
-      O mecanismo do SleepGuard era simples e consistia das seguinte regras:{' '}
+      O mecanismo do SleepGuard era simples e consistia das seguintes regras:{' '}
       <br />
       <br />- dois REMnants estabelecem uma conexão Keep-Alive entre seus IPs;{' '}
       <br />
