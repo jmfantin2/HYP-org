@@ -133,7 +133,7 @@ const CompoundPresentation = () => {
 
     <TextSlide key={17}>
       O whitepaper havia sido publicado há algum tempo, prevendo que a VEILnet
-      culminaria na explorarção do sono das pessoas para geração de energia e
+      culminaria na exploração do sono das pessoas para geração de energia e
       processamento de tarefas complexas.
     </TextSlide>,
     <TextSlide key={18}>
