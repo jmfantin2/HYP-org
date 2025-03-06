@@ -107,6 +107,7 @@ const CompoundPresentation = () => {
       REMnants ao redor do mundo ficaram com receio do que poderia acontecer com
       eles durante a noite. A confiança na VEILnet declinou.
     </TextSlide>,
+
     <ImageSlide key={11} path="11.webp" />,
 
     <TextSlide key={12} color="violet">
@@ -115,8 +116,11 @@ const CompoundPresentation = () => {
     </TextSlide>,
     <TextSlide key={13}>
       Uma comunidade global chamada Insomnia angariou muitos membros, e diversas
-      tentativas de mitigar os riscos se tornaram populares.
+      estratégias para mitigar os riscos se tornaram populares.
     </TextSlide>,
+
+    <ImageSlide key={13.5} path="insomnia.webp" />,
+
     <TextSlide key={14}>
       Nessa comunidade, um projeto antigo ganhou notoriedade entre os assuntos.
     </TextSlide>,
@@ -144,8 +148,8 @@ const CompoundPresentation = () => {
     <TextSlide key={20}>
       O mecanismo do SleepGuard era simples e consistia das seguinte regras:{' '}
       <br />
-      <br />- dois Implantados estabelecem uma conexão Keep-Alive entre seus
-      IPs; <br />
+      <br />- dois REMnants estabelecem uma conexão Keep-Alive entre seus IPs;{' '}
+      <br />
       - seus SIDs são modificados para emitir um atributo boolean “awake”,
       referente ao estado de alerta diário. <br />- a exposição de um REMnant à
       VEILnet precisaria passar por um dado entre par de awakes chamado
@@ -156,8 +160,8 @@ const CompoundPresentation = () => {
 
     <TextSlide key={22}>
       A Insomnia passou a coordenar o pareamento de REMnants em lados opostos do
-      planeta, para que sua comunicação com a VEILnet fosse mantida sob olhos
-      abertos 24h por dia.
+      planeta, para que suas comunicações com a VEILnet fossem vigiadas 24h por
+      dia.
     </TextSlide>,
     <TextSlide key={23}>
       A ZionLabs expandiu e passou a incentivar regulamentações entre humano e
