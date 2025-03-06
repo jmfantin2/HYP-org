@@ -11,7 +11,12 @@ export default {
           '0%': { opacity: '0', transform: 'translateY(10px)' },
           '100%': { opacity: '1', transform: 'translateY(0)' },
         },
-
+        fallSway: {
+          '0%': { transform: 'translateY(-10%) rotate(0deg)', opacity: 0 },
+          '30%': { transform: 'translateY(30%) rotate(5deg)', opacity: 0.8 },
+          '60%': { transform: 'translateY(60%) rotate(-3deg)', opacity: 1 },
+          '100%': { transform: 'translateY(100%) rotate(0deg)', opacity: 0 },
+        },
         opacity: {
           '0%': { opacity: 0 },
           '100%': { opacity: 1 },
@@ -55,6 +60,7 @@ export default {
         wiggle: 'wiggle 1.5s ease-in-out infinite',
         popup: 'popup 0.25s ease-in-out',
         shimmer: 'shimmer 3s ease-out infinite alternate',
+        'fall-sway': 'fallSway 3s ease-in-out infinite',
       },
     },
   },
